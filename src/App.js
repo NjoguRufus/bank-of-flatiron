@@ -8,6 +8,8 @@ const App = () => {
 
   const handleAddTransaction = (newTransaction) => {
     setTransactions([...transactions, newTransaction]);
+    // const newTransactions = [...transactions, newTransaction];
+    // setTransactions(newTransactions);
   };
 
   return (
